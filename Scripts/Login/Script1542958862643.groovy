@@ -19,3 +19,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://livestaging.luminello.com/auth/login/')
+
+WebUI.setText(findTestObject('Object Repository/signin/Page_Luminello - Login/input_Log in to your account_l'), 'averynewprovider')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/signin/Page_Luminello - Login/input_Log in to your account_p'), 
+    'e/67DRTm+TMi7R2rUaYGrQ==')
+
+WebUI.click(findTestObject('Object Repository/signin/Page_Luminello - Login/button_Log in'))
+
