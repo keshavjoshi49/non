@@ -16,7 +16,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://beta.luminela.com/signup?type=10')
+WebUI.navigateToUrl('http://beta.luminela.com/signup?type=1')
 
 WebUI.click(findTestObject('Object Repository/signup/Page_Luminello - Create a New Accou/span_Select your profession'))
 
@@ -36,13 +36,13 @@ not_run: WebUI.setText(findTestObject('Object Repository/signup/Page_Luminello -
 
 not_run: WebUI.click(findTestObject('Object Repository/signup/Page_Luminello - Create a New Accou/em_MD'))
 
-WebUI.setText(findTestObject('Object Repository/signup/Page_Luminello - Create a New Accou/input_here_email_address'), 'keshav+type10joshibetawithoutconsent@luminello.com')
+WebUI.setText(findTestObject('Object Repository/signup/Page_Luminello - Create a New Accou/input_here_email_address'), 'keshav+type1joshiDB@luminello.com')
 
 WebUI.setText(findTestObject('Object Repository/signup/Page_Luminello - Create a New Accou/input_here_re_email_address'), 
-    'keshav+type10joshibetawithoutconsent@luminello.com')
+    'keshav+type1joshiDB@luminello.com')
 
 WebUI.setText(findTestObject('Object Repository/signup/Page_Luminello - Create a New Accou/input_Your email will not be d'), 
-    'type10joshibetawithoutconsent')
+    'type1joshiDB')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/signup/Page_Luminello - Create a New Accou/input_Username is available._p'), 
     'e/67DRTm+TMi7R2rUaYGrQ==')
